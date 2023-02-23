@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In Buttion]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In Buttion]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Handling Popup Ok button]]>
+    </line>
+    <line>
+      <![CDATA[Ac Balance isRs.5,00,000.00]]>
+    </line>
+    <line>
+      <![CDATA[TC Passed Name isvalidateAcBal]]>
+    </line>
+    <line>
+      <![CDATA[Logging out From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In Buttion]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign In Buttion]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Pop up Not displayed]]>
+    </line>
+    <line>
+      <![CDATA[UserName on WebPortal is Hi Yogendra Joshi]]>
+    </line>
+    <line>
+      <![CDATA[UserName is matching]]>
+    </line>
+    <line>
+      <![CDATA[TC Passed Name isvalidateUserName]]>
+    </line>
+    <line>
+      <![CDATA[Logging out From NeoStox]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-10T14:14:31 IST" name="Default suite" finished-at="2023-02-10T14:15:12 IST" duration-ms="41729">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T14:14:31 IST" name="Default test" finished-at="2023-02-10T14:15:12 IST" duration-ms="41729">
+      <class name="neoStoxTestClass.ValidateUserNameUsingProperityFile">
+        <test-method is-config="true" signature="launchBrowswer()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:14:31 IST" name="launchBrowswer" finished-at="2023-02-10T14:14:42 IST" duration-ms="11499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowswer -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:14:42 IST" name="loginToNeoStox" finished-at="2023-02-10T14:14:59 IST" duration-ms="16581" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In Buttion]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign In Buttion]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Handling Popup Ok button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateAcBal()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:14:59 IST" name="validateAcBal" finished-at="2023-02-10T14:14:59 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ac Balance isRs.5,00,000.00]]>
+            </line>
+            <line>
+              <![CDATA[TC Passed Name isvalidateAcBal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAcBal -->
+        <test-method is-config="true" signature="logoutFromNeoStox()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:14:59 IST" name="logoutFromNeoStox" finished-at="2023-02-10T14:15:02 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromNeoStox -->
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:15:02 IST" name="loginToNeoStox" finished-at="2023-02-10T14:15:09 IST" duration-ms="7427" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Sign In Buttion]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign In Buttion]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Pop up Not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStox -->
+        <test-method signature="validateUserName()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:15:09 IST" name="validateUserName" finished-at="2023-02-10T14:15:09 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName on WebPortal is Hi Yogendra Joshi]]>
+            </line>
+            <line>
+              <![CDATA[UserName is matching]]>
+            </line>
+            <line>
+              <![CDATA[TC Passed Name isvalidateUserName]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logoutFromNeoStox()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:15:09 IST" name="logoutFromNeoStox" finished-at="2023-02-10T14:15:12 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromNeoStox -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:neoStoxTestClass.ValidateUserNameUsingProperityFile@5af3afd9]" started-at="2023-02-10T14:15:12 IST" name="closingBrowser" finished-at="2023-02-10T14:15:12 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- neoStoxTestClass.ValidateUserNameUsingProperityFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

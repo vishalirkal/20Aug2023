@@ -58,6 +58,8 @@ public class ValidateUserNameUsingProperityFile extends Base
 		//Utility.takesScreenShot(driver, Utility.readFromProperityFile("TCID"));
 		// Line no 60 is all about reading data from properity file
 	}
+	
+	
 // This test case is for checking account balance is null or not
 	@Test
 public void validateAcBal() throws IOException

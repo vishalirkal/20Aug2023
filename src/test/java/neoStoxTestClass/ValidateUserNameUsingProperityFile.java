@@ -68,6 +68,9 @@ public void validateAcBal() throws IOException
 		//Utility.takesScreenShot(driver,Utility.readFromProperityFile("TCID1"));
 		// Line no 67 is all about reading data from properity file
 	}
+	
+	
+	
 @AfterMethod
 public void logoutFromNeoStox() throws InterruptedException
   {

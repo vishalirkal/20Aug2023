@@ -44,8 +44,11 @@ public class ValidateUserNameUsingProperityFile extends Base
 		Utility.implicitwait(driver, 1000);
 		Signin.enterMobileNumber(Utility.readFromProperityFile("mobile"));
 		Signin.clickOnSignInButton();
+		Utility.implicitwait(driver, 1000);
 		Pass.enterPassword(Utility.readFromProperityFile("password"));
+		Utility.implicitwait(driver, 1000);
 		Pass.clickOnSubmitButton();
+		Utility.implicitwait(driver, 1000);
 		dash.handlePopUp(driver);
 	}
 // This is Test Method or test case
